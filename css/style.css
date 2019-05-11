@@ -42,6 +42,8 @@ body {
 
 /* ------- SECTION 2 ------- */
 
+
+
 #section2 {
     background-image: url('../img/bg-2.jpg');
     height: 100%;
@@ -50,14 +52,11 @@ body {
     background-size: cover;
 }
 
-.langs img {
-    width: 100%;
-}
-
 .langs .card-body {
     background-color: rgba(0, 255, 55, 0.507);
     position: absolute;
     width: 100%;
     bottom: 0;
+    max-height: 100%;
 }
 
