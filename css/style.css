@@ -52,11 +52,12 @@ body {
     background-size: cover;
 }
 
-.langs .card-body {
+#langs .card-body {
     background-color: rgba(0, 255, 55, 0.507);
     position: absolute;
     width: 100%;
     bottom: 0;
     max-height: 100%;
 }
+
 
