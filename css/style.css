@@ -1,13 +1,49 @@
+/* * {
+    border: 1px solid red;
+} */
+
+/* ------- FONTS ------- */
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+/* ------- SECTION 1 ------- */
+
 #section1 {
-    background-image: url('https://bearsthemespremium.com/theme/beoreo/wp-content/uploads/2016/02/bg_slider2.jpg');
+    background-image: url('../img/bg-1.jpg');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+#myName {
+    font-size: 4em;
+}
+
+.header-container {
+    color: white;
+}
+
+.header-container p
+ {
+    font-size: 200%;
+    text-shadow: 1px 1px 3px black;
+}
+
+.header-container h1
+ {
+    font-weight: 400;
+    text-shadow: 1px 1px 3px black;
+}
+
+/* ------- SECTION 2 ------- */
+
 #section2 {
-    background-image: url('https://images.wallpaperscraft.com/image/code_lines_programming_130775_2560x1440.jpg');
+    background-image: url('../img/bg-2.jpg');
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,19 +61,3 @@
     bottom: 0;
 }
 
-
-.header-container {
-    color: white;
-}
-
-.header-container p
- {
-    font-size: 200%;
-    text-shadow: 1px 1px 3px black;
-}
-
-.header-container h1
- {
-    font-weight: 400;
-    text-shadow: 1px 1px 3px black;
-}

@@ -1,12 +1,12 @@
 const $card = $('.card');
-const $cardBody = $('.card-body');
+const $cardBody = $('.cb-hidden');
 
 $($cardBody).hide();
 
-$($card).mouseenter(function(event){
-  $(event.target).children('.card-body').show();
+$($card).on('mouseenter', function(event){
+  $(this).children( $cardBody ).show();
 });
 
-$($card).mouseleave(function(event){
-  $(event.target).children('.card-body').hide();
+$($card).on('mouseleave', function(event){
+  $cardBody.hide();
 });
