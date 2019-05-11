@@ -1,0 +1,44 @@
+#section1 {
+    background-image: url('https://bearsthemespremium.com/theme/beoreo/wp-content/uploads/2016/02/bg_slider2.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section2 {
+    background-image: url('https://images.wallpaperscraft.com/image/code_lines_programming_130775_2560x1440.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.langs img {
+    width: 100%;
+}
+
+.langs .card-body {
+    background-color: rgba(0, 255, 55, 0.507);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: none;
+}
+
+
+.header-container {
+    color: white;
+}
+
+.header-container p
+ {
+    font-size: 200%;
+    text-shadow: 1px 1px 3px black;
+}
+
+.header-container h1
+ {
+    font-weight: 400;
+    text-shadow: 1px 1px 3px black;
+}
