@@ -2,8 +2,8 @@ var myFullpage = new fullpage('#fullpage', {
 	//Navigation
 	menu: '#myMenu',
 	lockAnchors: false,
-	anchors:['firstPage', 'secondPage'],
-	navigation: true,
+	anchors:['page1', 'page2', 'page3', 'page4'],
+	navigation: false,
 	navigationPosition: 'right',
 	navigationTooltips: ['firstSlide', 'secondSlide'],
 	showActiveTooltip: false,

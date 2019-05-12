@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     
     
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/fullpage.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -16,37 +17,57 @@
     <title>Bartłomiej Ambroziak - Portfolio</title>
   </head>
   <body>
-
     <div id="fullpage">
-       <div class="section" id="section1"> <!-- Section1 fullpage -->
+      <div class="section" id="section1"> <!-- Section1 fullpage -->
         <div class="container h-100 header-container ml-0">
           <div class="row justify-content-center h-100 p-5">
             <div class="col my-auto text-center">
-              <p id="myName">Bartłomiej Ambroziak</p>
+              <p id="myName" class="text-shadow">Bartłomiej Ambroziak</p>
               <h1 class="display-2">Witaj na moim portfolio</h1>
-              <p class="lead">Sprawdź dlaczego jestem wart uwagi..</p>
+              <p class="lead text-shadow">Sprawdź dlaczego jestem wart uwagi..</p>
+              <a href="#secondPage"><img class="img-fluid next-arrow" src="img/next.png"></a>
             </div>
           </div>
-         </div>
         </div>
+      </div>
 
       <div class="section" id="section2"> <!-- Section2 fullpage -->
+        <div class="container text-center h-100">
+          <div class="row align-content-center justify-content-center h-100">
+            <div class="col-md-8">
+              <h2 class="text-white text-shadow display-1 animated shake">KIM JESTEM?</h2>
+                <p class="lead">Nazywam się Bartłomiej Ambroziak i mam 25 lat.</p>
+                <p class="lead">Zagadnienia z informatyki od zawsze mnie fascynowały, jednakże nie potrafiłem znaleźć odpowiedniego dla siebie kierunku.
+                  Jako nastolatek tworzyłem proste strony postawione na CMS WordPress.</p>
+                <p class="lead">Przy zderzeniu się z dorosłością zatrudniałem się jako pracownik fizyczny, następnie udało mi się rozwinąć 3-letnią karierę w serwisie YouTube.
+                  Teraz jednak nadszedł czas na stabilizację, odnalazłem czas na naukę programowania w ścieżce Front-End i czuję, że jest to temat, którym chcę się zająć zawodowo.</p>
+                <p class="lead">Moim celem jest znaleźć pracę w firmie, w której będę stawał się coraz lepszym programistą i będę mógł stawiać sobie coraz wyższe poprzeczki.</p>
+        
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="section" id="section3"> <!-- Section3 fullpage -->
         
 
-        <div id="langs" class="container text-center h-100" style="border: 1px solid red;">
+        <div id="langs" class="container text-center h-100">
           
           <div class="row align-content-center justify-content-center h-100">
 
             <div class="col-12 p-5">
 
-              <h2 class="text-white pt-5 display-1">Co potrafię?</h2>
+              <h2 class="text-white text-shadow pt-5 display-1">Co potrafię?</h2>
             </div>
             <div class="col-6 col-sm-4">
               <div class="card mb-3">
                 <img src="img/html5.png" class="card-img-top img-fluid" alt="...">
                 <div class="card-body cb-hidden overflow-auto">
                   <h5 class="card-title">HTML5</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Podstawowa wiedza w sferze układania odpowiednio treści na stronie oraz stosowania odpowiednich znaczników.</p>
                 </div>
               </div>
             </div>
@@ -55,7 +76,7 @@
                 <img src="img/css3.png" class="card-img-top img-fluid" alt="...">
                 <div class="card-body cb-hidden overflow-auto">
                   <h5 class="card-title">CSS3</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Potrafię układać elementy odpowiednio do projektu, poznałem m.in. Flexbox. Nie boję się eksperymentować i poszukiwać nowych rozwiązań.</p>
                 </div>
               </div>
             </div>
@@ -95,10 +116,26 @@
 
       </div>
 
-      <div class="section" id="section3"> <!-- Section3 fullpage -->
+      <div class="section text-center" id="section4"> <!-- Section4 fullpage -->
+            <h2 class="text-white text-shadow pt-5 display-1 my-5">MOJE PROJEKTY</h2>
+        <div class="slide " id="slide1">
+            <div class="row align-content-center justify-content-center">
+                
+                <div class="col-4">
+                  <div class="card mb-3">
+                    <img src="img/html5.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body overflow-auto">
+                      <h5 class="card-title">HTML5</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
 
-        <h1>Just the simplest demo ever</h1>
-
+        <div class="slide" id="slide2">
+          <h1>Totally customizable</h1>
+        </div>
       </div>
     </div>
 
@@ -116,8 +153,6 @@
     <!-- Extra Scripts -->
     <script type="text/javascript" src="js/fullpage.js"></script>
     <script type="text/javascript" src="js/fullpage-config.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
-    
-    
+    <script type="text/javascript" src="js/script.js"></script>  
   </body>
 </html>
