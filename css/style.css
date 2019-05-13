@@ -74,22 +74,33 @@ body {
 }
 
 #langs .card {
-    filter: grayscale(90%);
+    background: transparent;
+    border: none;
+    filter: opacity(0.5);
+    filter: grayscale(50%);
+
 }
 
 #langs .card:hover {
     transition: 0.5s;
+    filter: opacity(1);
     filter: grayscale(0%);
     transform: scale(1.05);
     
 }
 
 #langs .card-body {
-    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.6);
     position: absolute;
     width: 100%;
+    height: 100%;
     bottom: 0;
-    max-height: 100%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    
 }
 
 
