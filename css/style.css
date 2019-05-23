@@ -16,9 +16,8 @@ body {
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: normal;
-    /* background-image: linear-gradient(transparent 60%, #5b5b5b), url('../img/bg-1.jpg'); */
+    background-size: 100%;
+    background-color: #c5c1be;
     background-image: url('../img/bg-1.jpg');
     
 }
