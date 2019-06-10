@@ -10,16 +10,19 @@ body {
     
 }
 
+.section {
+   
+}
+
 /* ------- SECTION 1 ------- */
 
 #section1 {
-    height: 100%;
+    min-height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: #c5c1be;
     background-image: url('../img/bg-1.jpg');
-    
 }
 
 #myName {
@@ -51,10 +54,9 @@ body {
 /* ------- SECTION 2 ------- */
 
 
-
 #section2 {
-    height: 100%;
-    background: #a3a3a3;
+    /* background: #a3a3a3; */
+    background: linear-gradient(red, blue);
 }
 
 .overflow-auto {
@@ -64,7 +66,6 @@ body {
 /* ------- SECTION 3 ------- */
 
 #section3 {
-    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,19 +107,10 @@ body {
 /* ------- SECTION 4 ------- */
 
 #section4 {
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: normal;
-    /* background-image: linear-gradient(#5b5b5b, transparent 70%), url('../img/bg-2.jpg'); */
     background-image: url('../img/bg-3.jpg');
-}
-
-#section4 h2 {
-    left: 0;
-    right: 0;
-    top: -50px;
 }
 
 #section4 .card {
@@ -141,33 +133,4 @@ body {
 #card-github {
     font-weight: bold;
     text-decoration: underline;
-}
-
-@media (max-width: 575px) { 
-
-    .card-title {
-        font-size: 1rem;
-    }
-    
-
-    .lead, .card-text {
-        font-size: 0.8rem;
-        font-weight: 300;
-      }
-      
-      #myName,
-      .display-1,
-      .display-2,
-      .display-3,
-      .display-4 {
-        font-size: 2rem;
-        font-weight: 300;
-        line-height: 1.2;
-      }
-}
-
-@media (min-width: 992px) {
-    #section4 .card {
-
-    }
 }

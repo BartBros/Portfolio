@@ -11,3 +11,18 @@ $(document).ready(function(){
 $($card).on('mouseleave', function(event){
   $cardBody.hide();
 });
+
+
+$('.carousel').carousel({
+  interval: false
+})
+
+$(document).on("click","#next",function(e){
+  e.preventDefault();
+  var id = $(this).attr("href"),
+      topSpace = 30;
+//alert(id);
+  $('html, body').animate({
+    scrollTop: $(id).offset().top - topSpace
+  }, 800);
+});
